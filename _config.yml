@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: 欧阳松的博客
+subtitle: '终日所思不如须臾所学'
+description: '欧阳松的博客是欧阳松(@ouyangsong)所思所想所学的笔记，其中后端相关的技术文章为主'
+keywords: 个人博客, 互联网, 后台, 程序员, 北邮, @ouyangsong, @欧阳松, 爬虫, 逆向, 破解, 北京, Python, C++, Vim
+author: 欧阳松
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://www.ouyangsong.com
 root: /
 permalink: posts/:abbrlink/
 permalink_defaults:
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -60,6 +60,9 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
+
+archive_generator:
+  per_page: 15
 
 # Category & Tag
 default_category: uncategorized
@@ -99,3 +102,10 @@ theme: icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+nofollow:
+  enable: true
+  exclude:
+    - wufan.site
+    - niuyuanyuanna.github.io
+    - blogs.rhsphere.com
