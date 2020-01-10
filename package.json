@@ -27,5 +27,8 @@
     "hexo-renderer-markdown-it": "^4.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0"
+  },
+  "devDependencies": {
+    "hexo-browsersync": "^0.3.0"
   }
 }
