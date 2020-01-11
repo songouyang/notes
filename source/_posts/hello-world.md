@@ -4,7 +4,8 @@ toc: true
 mathjax: true
 abbrlink: 16107
 tags: ["hello", "world"]
-categories: today
+categories: Golang
+thumbnail: //p.pstatp.com/origin/fefd00018ec9ca73a39e
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
@@ -29,9 +30,15 @@ $$
 \nabla\times\vec{B}&=&\mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t}\right)\\\\
 \end{eqnarray\*}
 
-``` bash
+``` console
 $ hexo new "My New Post"
 ```
+
+{% codeblock hexo-filter-mathjax lang:javascript https://github.com/stevenjoezhang/hexo-filter-mathjax/blob/master/index.js index.js %}
+hexo.extend.filter.register('after_render:html', data => {
+  return data.replace(/<head>(?!<\/head>).+?<\/head>/s, str => str.replace('</head>', `<style>${css}</style></head>`));
+});
+{% endcodeblock %}
 
 More info: [Writing](https://hexo.io/docs/writing.html)
 
