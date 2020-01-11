@@ -1,6 +1,6 @@
 # notes
 
-[](https://github.com/songouyang/notes/workflows/ci/badge.svg)
+[![](https://github.com/songouyang/notes/workflows/ci/badge.svg)](https://github.com/songouyang/notes/actions)
 
 本地预览
 
