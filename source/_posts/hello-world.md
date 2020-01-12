@@ -21,6 +21,23 @@ $$
 i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi
 $$
 
+{% plantuml %}
+@startuml
+actor Bob #red
+' The only difference between actor
+'and participant is the drawing
+participant Alice
+participant "I have a really\nlong name" as L #99FF99
+/' You can also declare:
+   participant L as "I have a really\nlong name"  #99FF99
+  '/
+
+Alice->Bob: Authentication Request
+Bob->Alice: Authentication Response
+Bob->L: Log transaction
+@enduml
+{% endplantuml %}
+
 <!--more-->
 
 \begin{eqnarray\*}
@@ -29,6 +46,36 @@ $$
 \nabla\times\vec{E}&=&-\frac{\partial B}{\partial t}\\\\
 \nabla\times\vec{B}&=&\mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t}\right)\\\\
 \end{eqnarray\*}
+
+{% plantuml %}
+@startuml
+scale 750 width
+package foo1 <<Node>> {
+  class Class1
+}
+
+package foo2 <<Rectangle>> {
+  class Class2
+}
+
+package foo3 <<Folder>> {
+  class Class3
+}
+
+package foo4 <<Frame>> {
+  class Class4
+}
+
+package foo5 <<Cloud>> {
+  class Class5
+}
+
+package foo6 <<Database>> {
+  class Class6
+}
+
+@enduml
+{% endplantuml %}
 
 ``` console
 $ hexo new "My New Post"

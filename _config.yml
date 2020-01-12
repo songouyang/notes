@@ -96,6 +96,17 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+nofollow:
+  enable: true
+  exclude:
+    - wufan.site
+    - niuyuanyuanna.github.io
+    - blogs.rhsphere.com
+plantuml:
+  render: "PlantUMLServer"
+  server: "http://www.plantuml.com/plantuml"
+  link: "inlineBase64"
+  outputFormat: "svg"
 ## Themes: https://hexo.io/themes/
 theme: icarus
 
@@ -103,10 +114,3 @@ theme: icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
-
-nofollow:
-  enable: true
-  exclude:
-    - wufan.site
-    - niuyuanyuanna.github.io
-    - blogs.rhsphere.com

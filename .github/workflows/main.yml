@@ -18,21 +18,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
-    - name: Get Yarn Cache
-      id: yarn-cache
-      run: echo "::set-output name=dir::$(yarn cache dir)"
-    - uses: actions/cache@v1
-      with:
-        path: ${{ steps.yarn-cache.outputs.dir }}
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-yarn-
     - name: Install Dependencies
-      run: yarn
+      run: yarnpkg
     - name: Configure Icarus
       run: cp source/icarus.yml themes/icarus/_config.yml
     - name: Hexo Build
-      run: yarn build
+      run: yarnpkg run build
     - name: Archive Production Artifact
       uses: actions/upload-artifact@master
       with:

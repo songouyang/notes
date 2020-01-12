@@ -6,6 +6,7 @@ categories:
 comments: true
 mathjax: false
 toc: false
+thumbnail:
 ---
 
 <!--more-->
