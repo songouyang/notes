@@ -13,6 +13,11 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ### Create a new post
 
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
+The HTML specification
+is maintained by the W3C.
+
 $$
 \sin \left(x\right)
 $$
@@ -47,6 +52,15 @@ Bob->L: Log transaction
 \nabla\times\vec{B}&=&\mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t}\right)\\\\
 \end{eqnarray\*}
 
+Here is a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they
+belong to the previous footnote.
+
 {% plantuml %}
 @startuml
 scale 750 width
@@ -80,6 +94,8 @@ package foo6 <<Database>> {
 ``` console
 $ hexo new "My New Post"
 ```
+
+Here is an inline note.^[Inlines notes are easier to write, since you don't have to pick an identifier and move down to type the note.]
 
 {% codeblock hexo-filter-mathjax lang:javascript https://github.com/stevenjoezhang/hexo-filter-mathjax/blob/master/index.js index.js %}
 hexo.extend.filter.register('after_render:html', data => {

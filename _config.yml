@@ -107,6 +107,10 @@ plantuml:
   server: "http://www.plantuml.com/plantuml"
   link: "inlineBase64"
   outputFormat: "svg"
+markdown:
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
 ## Themes: https://hexo.io/themes/
 theme: icarus
 
