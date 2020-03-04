@@ -97,7 +97,7 @@ widgets:
         # Author name to be shown in the profile widget
         author: 欧阳松
         # Title of the author to be shown in the profile widget
-        author_title: 面向搜索编程
+        author_title: sudo focusing
         # Author's current location to be shown in the profile widget
         location: 北京
         # Path or URL to the avatar to be shown in the profile widget
@@ -193,4 +193,4 @@ providers:
     # Name or URL of the webfont CDN provider
     fontcdn: //fonts.geekzu.org/${type}?family=${fontname}
     # Name or URL of the webfont Icon CDN provider
-    iconcdn: fontawesome
+    iconcdn: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css

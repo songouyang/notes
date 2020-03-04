@@ -9,14 +9,11 @@ thumbnail: //p.pstatp.com/origin/fefd00018ec9ca73a39e
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
+<!--more-->
+
 ## Quick Start
 
 ### Create a new post
-
-*[HTML]: Hyper Text Markup Language
-*[W3C]:  World Wide Web Consortium
-The HTML specification
-is maintained by the W3C.
 
 $$
 \sin \left(x\right)
@@ -25,25 +22,6 @@ $$
 $$
 i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi
 $$
-
-{% plantuml %}
-@startuml
-actor Bob #red
-' The only difference between actor
-'and participant is the drawing
-participant Alice
-participant "I have a really\nlong name" as L #99FF99
-/' You can also declare:
-   participant L as "I have a really\nlong name"  #99FF99
-  '/
-
-Alice->Bob: Authentication Request
-Bob->Alice: Authentication Response
-Bob->L: Log transaction
-@enduml
-{% endplantuml %}
-
-<!--more-->
 
 \begin{eqnarray\*}
 \nabla\cdot\vec{E}&=&\frac{\rho}{\epsilon_0}\\\\
@@ -60,36 +38,6 @@ Here is a footnote reference,[^1] and another.[^longnote]
 
     Subsequent paragraphs are indented to show that they
 belong to the previous footnote.
-
-{% plantuml %}
-@startuml
-scale 750 width
-package foo1 <<Node>> {
-  class Class1
-}
-
-package foo2 <<Rectangle>> {
-  class Class2
-}
-
-package foo3 <<Folder>> {
-  class Class3
-}
-
-package foo4 <<Frame>> {
-  class Class4
-}
-
-package foo5 <<Cloud>> {
-  class Class5
-}
-
-package foo6 <<Database>> {
-  class Class6
-}
-
-@enduml
-{% endplantuml %}
 
 ``` console
 $ hexo new "My New Post"
