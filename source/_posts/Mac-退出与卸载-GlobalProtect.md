@@ -49,7 +49,7 @@ launchctl load -w /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*
 
 **方法一**
 如果 GlobalProtect 的安装程序还存在，可以重新打开安装程序，取消勾选升级操作并且勾选卸载操作。
-{% asset_img "Uninstall-GlobalProtect.png" "Uninstall GlobalProtect" %}
+{% asset_img "Uninstall-GlobalProtect.png" '"使用安装程序卸载 GlobalProtect" "卸载 GlobalProtect"'%}
 
 **方法二**
 如果 GlobalProtect 的安装程序已经丢失，可以执行应用目录中的卸载脚本。
