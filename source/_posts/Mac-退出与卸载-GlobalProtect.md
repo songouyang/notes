@@ -12,10 +12,11 @@ date: 2020-03-07 13:40:32
 thumbnail:
 ---
 
-北邮的校园 VPN 软件是 GlobalProtect。在 Mac 操作平台上，GlobalProtect 程序不提供常规的退出选项，不仅安装启动后，便无法退出，而且开机自启动。即使从活动监视器中强制杀进程，GlobalProtect 进程也会重新自启动。
-常驻的进程不仅浪费系统资源，还有可能后台上传个人隐私。借助 macOS 自带的服务管理工具 launchctl 可以退出 GlobalProtect 程序以及关闭开机自启动任务。
+北邮的校园 VPN 软件使用的是 GlobalProtect。在 macOS 操作系统上，GlobalProtect 程序不提供常规的退出选项，不仅安装启动后无法退出，而且开机自启动。借助 macOS 自带的服务管理工具 launchctl 不仅可以退出 GlobalProtect 程序，还可以选择关闭开机自启。
 
 <!--more-->
+
+GlobalProtect 的流氓之处在于：即使从活动监视器中强制杀进程，相关的进程也会立马重新自启动。常驻的进程不仅浪费系统资源，还有可能后台上传个人隐私。
 
 ## 退出
 
