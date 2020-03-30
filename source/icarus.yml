@@ -14,13 +14,13 @@ logo: /images/logo.svg
 # https://hexo.io/docs/helpers.html#open-graph
 open_graph:
     # Facebook App ID
-    fb_app_id: 
+    fb_app_id: 306186949808702
     # Facebook Admin ID
-    fb_admins: 
+    fb_admins: ouyangsongbupt
     # Twitter ID
     twitter_id: songouyang
     # Twitter site
-    twitter_site: 
+    twitter_site: songouyang
 # Navigation bar link settings
 navbar:
     # Navigation bar menu links
