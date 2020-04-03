@@ -9,7 +9,7 @@ tags:
 categories: 软件技巧
 abbrlink: 40074
 date: 2020-03-07 13:40:32
-thumbnail:
+thumbnail: /data/thumbnails/40074.jpg
 ---
 
 北邮 VPN 软件使用的是 GlobalProtect。在 macOS 操作系统上，GlobalProtect 程序不提供常规的退出选项，不仅安装启动后无法退出，而且开机自启动。借助 macOS 自带的服务管理工具 launchctl 不仅可以退出 GlobalProtect 程序，还可以选择关闭开机自启。
