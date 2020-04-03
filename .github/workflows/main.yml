@@ -32,6 +32,8 @@ jobs:
       run: cp source/icarus.yml themes/icarus/_config.yml
     - name: Hexo Build
       run: yarnpkg run build
+      env:
+        NODE_ENV: production
     - name: Archive Production Artifact
       uses: actions/upload-artifact@master
       with:
