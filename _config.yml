@@ -113,3 +113,7 @@ theme: icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+# icarus 主题配置
+providers:
+  fontcdn: //fonts.geekzu.org/${ type }?family=${ fontname }
