@@ -65,7 +65,7 @@ exclude: null
 ignore: null
 theme: icarus
 deploy:
-  type: ''
+  type: cos
 nofollow:
   enable: true
   exclude:
@@ -73,11 +73,6 @@ nofollow:
     - niuyuanyuanna.github.io
     - blogs.rhsphere.com
 all_minifier: true
-js_concator:
-  enable: true
-  bundle_path: '/js/bundle.js'
-  front: false
-  silent: true
 html_minifier:
   enable: true
   ignore_error: false
@@ -104,3 +99,6 @@ image_minifier:
   pngquant: false
   progressive: false
   silent: true
+cdn:
+  enable: true
+  base: //pan-1252071026.file.myqcloud.com

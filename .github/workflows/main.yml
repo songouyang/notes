@@ -32,6 +32,13 @@ jobs:
       run: yarnpkg run build
       env:
         NODE_ENV: production
+    - name: Tencent Cloud Object Storage
+      run: yarnpkg run deploy
+      env:
+        COS_BUCKET: ${{ secrets.COS_BUCKET }}
+        COS_REGION: ${{ secrets.COS_REGION }}
+        COS_SECRET_ID: ${{ secrets.COS_SECRET_ID }}
+        COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
     - name: Archive Production Artifact
       uses: actions/upload-artifact@master
       with:
