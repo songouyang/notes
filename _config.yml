@@ -72,3 +72,35 @@ nofollow:
     - wufan.site
     - niuyuanyuanna.github.io
     - blogs.rhsphere.com
+all_minifier: true
+js_concator:
+  enable: true
+  bundle_path: '/js/bundle.js'
+  front: false
+  silent: true
+html_minifier:
+  enable: true
+  ignore_error: false
+  silent: true
+  exclude:
+css_minifier:
+  enable: true
+  silent: true
+  exclude:
+    - '*.min.css'
+js_minifier:
+  enable: true
+  mangle: true
+  silent: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+  silent: true
