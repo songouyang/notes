@@ -1,5 +1,5 @@
 # Version of the configuration file
-version: 3.0.0
+version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
@@ -13,33 +13,33 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title:
+        title: 
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url:
-        # Page cover (og:image) (optional) Default to the Open Graph image or thumbnail of the page
+        url: 
+        # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image:
+        image: 
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name:
+        site_name: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author:
+        author: 
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description:
+        description: 
         # Twitter card type (twitter:card)
         twitter_card: 'summary'
         # Twitter ID (twitter:creator)
         twitter_id: 'songouyang'
-        # Twitter ID (twitter:creator)
+        # Twitter Site (twitter:site)
         twitter_site: 'songouyang'
         # Google+ profile link (deprecated)
-        google_plus:
+        google_plus: 
         # Facebook admin ID
         fb_admins: 'ouyangsongbupt'
         # Facebook App ID
@@ -49,19 +49,19 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title:
+        title: 
         # Page description (optional)
         # You should leave this blank for most of the time
-        description:
+        description: 
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url:
+        url: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author:
-        # Page images (optional) Default to the Open Graph image or thumbnail of the page
+        author: 
+        # Page images (optional)
         # You should leave this blank for most of the time
-        image:
+        image: 
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
@@ -95,7 +95,7 @@ footer:
             url: 'https://creativecommons.org/licenses/by/4.0/'
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/songouyang/notes'
 # Article related configurations
 article:
     # Code highlight settings
@@ -107,10 +107,19 @@ article:
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
         fold: unfolded
-    # Whether to show thumbnail image for every article
-    thumbnail: true
     # Whether to show estimated article reading time
     readtime: true
+    # Article licensing block
+    licenses:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/'
+        Attribution:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by/4.0/'
+        Noncommercial:
+            icon: fab fa-creative-commons-nc
+            url: 'https://creativecommons.org/licenses/by-nc/4.0/'
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
@@ -145,7 +154,7 @@ widgets:
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
-        gravatar:
+        gravatar: 
         # URL or path for the follow button
         follow_link: 'https://github.com/songouyang'
         # Links to be shown on the bottom of the profile widget
@@ -165,8 +174,7 @@ widgets:
             RSS:
                 icon: fas fa-rss
                 url: /atom.xml
-
-    # Recommendation links widget configurations
+     # Recommendation links widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
@@ -202,6 +210,7 @@ widgets:
         position: right
         type: tags
 # Plugin configurations
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
     # Enable page startup animations
     animejs: true
@@ -211,7 +220,7 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id:
+        tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
     busuanzi: false
@@ -219,22 +228,21 @@ plugins:
     # https://www.umeng.com/web
     cnzz:
         # CNZZ tracker id
-        id:
+        id: 
         # CNZZ website id
-        web_id:
+        web_id: 
     # Enable the lightGallery and Justified Gallery plugins
-    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/gallery-plugin/
     gallery: true
     # Google Analytics plugin settings
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id:
+        tracking_id: 
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
         # Hotjar site id
-        site_id:
+        site_id: 
     # Enable the KaTeX math typesetting supprot
     # https://katex.org/
     katex: false
@@ -254,4 +262,4 @@ providers:
     # Name or URL template of the webfont CDN provider
     fontcdn: //fonts.geekzu.org/${ type }?family=${ fontname }
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css
+    iconcdn: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css

@@ -7,6 +7,7 @@ comments: true
 mathjax: false
 toc: false
 thumbnail:
+cover:
 ---
 
 <!--more-->
