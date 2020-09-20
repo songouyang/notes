@@ -69,6 +69,7 @@ deploy:
   - type: git
     repo:
       coding: git@e.coding.net:ouyangsong/ouyangsong.coding.me/ouyangsong.coding.me.git
+      github: git@github.com:songouyang/songouyang.github.io.git
     branch: master
     name: songouyang
     email: songouyang@live.com
