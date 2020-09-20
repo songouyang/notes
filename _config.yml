@@ -65,7 +65,11 @@ exclude: null
 ignore: null
 theme: icarus
 deploy:
-  type: cos
+  - type: cos
+  - type: git
+    repo:
+      coding: git@e.coding.net:ouyangsong/ouyangsong.coding.me/ouyangsong.coding.me.git
+    branch: master
 nofollow:
   enable: true
   exclude:
