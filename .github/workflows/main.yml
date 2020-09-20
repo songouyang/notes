@@ -37,7 +37,7 @@ jobs:
       run: yarnpkg run build
       env:
         NODE_ENV: production
-    - name: Tencent Cloud Object Storage
+    - name: Hexo Deploy
       run: yarnpkg run deploy
       env:
         COS_BUCKET: ${{ secrets.COS_BUCKET }}
