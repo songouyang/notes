@@ -70,6 +70,8 @@ deploy:
     repo:
       coding: git@e.coding.net:ouyangsong/ouyangsong.coding.me/ouyangsong.coding.me.git
     branch: master
+    name: songouyang
+    email: songouyang@live.com
 nofollow:
   enable: true
   exclude:
