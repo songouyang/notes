@@ -106,3 +106,6 @@ image_minifier:
 cdn:
   enable: true
   base: //pan-1252071026.file.myqcloud.com
+markdown:
+  plugins:
+    - markdown-it-footnote
