@@ -61,6 +61,7 @@ comments:
 disqus:
   enable: true
   shortname: ouyangsong
+  count: false
 motion:
   async: true
 vendors:
