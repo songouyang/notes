@@ -1,0 +1,62 @@
+minify: true
+custom_file_path:
+  variable: source/_data/variables.styl
+scheme: Pisces
+darkmode: true
+favicon:
+  small: /data/favicon/favicon-16x16.png
+  medium: /data/favicon/favicon-32x32.png
+  apple_touch_icon: /data/favicon/apple-touch-icon.png
+  safari_pinned_tab: /data/favicon/safari-pinned-tab.svg
+
+creative_commons:
+  post: true
+
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+  about: /about/ || fa fa-user
+
+avatar:
+  url: //inews.gtimg.com/newsapp_ls/0/12926426431/0
+
+social:
+  GitHub: https://github.com/songouyang || fab fa-github
+  E-Mail: mailto:songouyang@live.com || fa fa-envelope
+
+links_settings:
+  icon: fa fa-link
+  layout: inline
+links:
+  Fan Wu: https://wufan.site/
+  Depeng: https://blogs.rhsphere.com/
+  NYY: https://niuyuanyuanna.github.io/
+
+footer:
+  since: 2020
+
+post_meta:
+  updated_at:
+    enable: false
+
+preconnect: true
+
+font:
+  enable: true
+  host:
+  global:
+    family: Monda
+  headings:
+    family: Roboto Slab
+  codes:
+    family: PT Mono
+pjax: true
+mediumzoom: true
+lazyload: true
+quicklink:
+  enable: true
+motion:
+  async: true
+vendors:
+  internal: jsdelivr

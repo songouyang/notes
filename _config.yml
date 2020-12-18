@@ -1,6 +1,6 @@
 title: 欧阳松的博客
-subtitle: '终日所思不如须臾所学'
-description: '欧阳松的博客是欧阳松(@ouyangsong)所思所想所学的笔记'
+subtitle: 'Quick Notes'
+description: 'Focusing'
 keywords: 个人博客, 互联网, 后台, 程序员, 北邮, 字节跳动, @ouyangsong, @欧阳松, 爬虫, 北京, Python, C++, Vim
 author: 欧阳松
 language: zh-CN
@@ -34,7 +34,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -53,7 +53,8 @@ archive_generator:
 default_category: uncategorized
 category_map:
   软件技巧: software-tips
-tag_map: null
+tag_map:
+  安卓: Android
 meta_generator: true
 date_format: YYYY-MM-DD
 time_format: 'HH:mm:ss'
@@ -63,9 +64,8 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: icarus
+theme: next
 deploy:
-  - type: cos
   - type: git
     repo:
       coding: git@e.coding.net:ouyangsong/ouyangsong.coding.me/ouyangsong.coding.me.git
@@ -79,33 +79,6 @@ nofollow:
     - wufan.site
     - niuyuanyuanna.github.io
     - blogs.rhsphere.com
-all_minifier: true
-html_minifier:
-  enable: true
-  ignore_error: false
-  silent: true
-css_minifier:
-  enable: true
-  silent: true
-  exclude:
-    - '*.min.css'
-js_minifier:
-  enable: true
-  mangle: true
-  silent: true
-  exclude:
-    - '*.min.js'
-image_minifier:
-  enable: true
-  interlaced: false
-  multipass: false
-  optimizationLevel: 2
-  pngquant: false
-  progressive: false
-  silent: true
-cdn:
-  enable: true
-  base: //pan-1252071026.file.myqcloud.com
 markdown:
   plugins:
     - markdown-it-footnote
