@@ -19,6 +19,8 @@ jobs:
       uses: actions/checkout@v1
       with:
         submodules: recursive
+    - name: Configuring theme settings
+      run: cp _config.octo.yml themes/octo/_config.yml
     - name: Setup Node
       uses: actions/setup-node@v1
       with:

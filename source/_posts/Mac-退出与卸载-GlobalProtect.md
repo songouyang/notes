@@ -4,8 +4,6 @@ comments: true
 mathjax: false
 toc: false
 tags:
-  - VPN
-  - macOS
 categories: 软件技巧
 abbrlink: 40074
 date: 2020-03-07 13:40:32

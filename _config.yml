@@ -1,7 +1,7 @@
 title: 欧阳松的博客
 subtitle: 'Quick Notes'
 description: 'Focusing'
-keywords: 个人博客, 互联网, 后台, 程序员, 北邮, 字节跳动, @ouyangsong, @欧阳松, 爬虫, 北京, Python, C++, Vim
+keywords: 博客, 程序员, 北邮, 字节跳动, @ouyangsong, @欧阳松, 北京, Python, C++, Golang, Vim
 author: 欧阳松
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -34,7 +34,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: false
+  line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -54,7 +54,6 @@ default_category: uncategorized
 category_map:
   软件技巧: software-tips
 tag_map:
-  安卓: Android
 meta_generator: true
 date_format: YYYY-MM-DD
 time_format: 'HH:mm:ss'
@@ -64,7 +63,7 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: next
+theme: octo
 deploy:
   - type: git
     repo:

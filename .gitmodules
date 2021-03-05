@@ -1,0 +1,3 @@
+[submodule "themes/octo"]
+	path = themes/octo
+	url = https://github.com/jbreckmckye/hexo-theme-octo.git
