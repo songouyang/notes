@@ -7,10 +7,6 @@ menu:
   Archives: /archives
   # Title: /pageName - create using `hexo new page 'pageName'`
 
-# Post social sharing features
-social:
-  twitter: songouyang # set to your twitter handle
-
 # Page sidebars
 # Components will appear in the order they are specified
 sidebars:
